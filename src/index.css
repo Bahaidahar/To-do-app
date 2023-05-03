@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    background: #3F72AF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
 }
+
+.to-do-app{
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F9F7F7;
+    max-width: 600px;
+    padding: 20px 55px 20px;
+    border-radius: 20px;
+}
+
+.to-do-title{
+    color: #112D4E;
+}
+
+.line{
+    margin-top: 20px;
+    max-width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.toDos{
+    margin-top: 20px;
+}
+
+

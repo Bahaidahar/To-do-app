@@ -1,0 +1,41 @@
+.actions{
+   text-align: center;
+}
+
+.input{
+    text-align: center;
+    position: relative;
+    background: #DBE2EF;
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+    height: 32px;
+    border: none;
+    outline: none;
+}
+
+
+.btn{
+    position: absolute;
+    background: #B1B1B1;
+    border: none;
+    cursor: pointer;
+    width: 45px;
+    height: 32px;
+    border-radius: 0 5px 5px 0 ;
+    color: white;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+@media (max-width: 380px) {
+    .input{
+        width: 170px;
+        height: 25px;
+    }
+    .btn{
+        height: 25px;
+        width: 35px;
+    }
+}

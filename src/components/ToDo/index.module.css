@@ -1,0 +1,36 @@
+.toDo{
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #DBE2EF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btnGreen{
+    opacity: inherit;
+    border: 1px solid #7D7C7C;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #36CF00;
+}
+
+
+.btnRed{
+    opacity: inherit;
+    border: 1px solid #7D7C7C;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: red;
+}
+
+
+.btnGreen:hover, .btnRed:hover{
+    opacity:  0.5;
+}
